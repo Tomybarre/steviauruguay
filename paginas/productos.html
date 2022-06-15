@@ -6,6 +6,7 @@
     
     <link rel="shortcut icon" href="../imagenes/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
 <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -33,27 +34,65 @@
 
         <h2>PRODUCTOS</h2>
         <br>
-       <section>
-           <article>
-       <h3>Stevia de kilo 1/1</h3>
-       <img src="../imagenes/kilo1.1.jpg" width="400" title="Stevia de kilo 1/1"  alt="Stevia de kilo 1/1">
-    </article>
-    <article>
-       <h3>Stevia de kilo 1/6</h3>
-    
-       <img src="../imagenes/kilo1.6.jpg" width="400" title="Stevia de kilo 1/6"   alt="Stevia de kilo 1/6">
-    </article>
-
-    </section>
-
+        <h2 class="display-3 text-center" id="productos"></h2>
+        <div class="container">
+            <div class="row my-5">
+              <div class="col-12 col-md-4 my-4">
+                <div class="card">
+                    <img src="../imagenes/kilo1.1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Stevia de kilo 1/1</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 my-4">
+                <div class="card">
+                    <img src="../imagenes/kilo1.6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Stevia de kilo 1/6</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 my-4">
+                <div class="card">
+                    <img src="../imagenes/pote400g1.1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Stevia en pote de 400g 1/1</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4 my-4">
+                <div class="card">
+                    <img src="../imagenes/pote400g 1.6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Stevia en pote de 400g 1/6</p>
+                    </div>
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+      
     </main>
 
-    <footer>
-   
-        <p>Telefonos (+598) 99 76 33 97 / (+598) 99 60 55 33</p>
-    
-    
-    </footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span  class="piecolor" class="text-muted">&copy; 2021 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+          <p>Telefonos (+598) 99 76 33 97 / (+598) 99 60 55 33</p>
+        </footer>
+      </div>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 
