@@ -1,10 +1,11 @@
  
 
  *{
-    margin:0;
+    margin: 0;
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    
 
 }
 
@@ -22,23 +23,11 @@ h3{
 
 body{
   background-color: beige;
-   
+
   
 
 }
 
-nav{
-    text-align: center;
-    word-spacing: 50px;
- 
-}
-span{
-    background-color: green;
-    margin: 5;
-    padding: 5px 30px;
-    border-radius: 4px;
-  
-}
 
 
     
@@ -68,7 +57,8 @@ margin: 1px;
 
 
 img{
-    margin: 50px 10px 40px 50px
+    margin: 50px 10px 40px 50px;
+    
 }
 .cajatexto{
 
@@ -84,6 +74,11 @@ footer{
 .piecolor{
     background-color: wheat;
 }
+
+
+
+
+
 /*Animaciondes y Degradados*/
 
 .slide-bottom {
@@ -147,6 +142,7 @@ footer{
     nav{
         text-align: center;
         word-spacing: 50px;
+        
      
     }
     span{
@@ -192,7 +188,9 @@ footer{
     background-color: white;
     
     }
+    
     .grid{
+       
         display: flex;
         flex-flow: column nowrap;
         
@@ -270,7 +268,12 @@ footer{
        justify-content: center;
     }
     
-  
+    .flexproductos {
+        display: flex;
+        flex-flow:row;
+    
+    }
+    
 }
 
 /*desktop*/
@@ -341,8 +344,18 @@ background-color: white;
    justify-content: center;
 }
 
-
-
+.flexproductos {
+    display: flex;
+    flex-flow:row;
+   
+}
+article {
+    
+    border-radius: 4px;
+    margin: 5px;
+    text-align: center;
+    
+}
 
 
 }
