@@ -1,6 +1,13 @@
 /*import*/
 
 @import "media";
+@import "productos";
+@import "contacto";
+@import "noticias";
+
+//*variables*//
+
+$color-titulos:darkgreen;
 
 
 
@@ -15,12 +22,16 @@
 
 
 
+h1{
+    color:$color-titulos;
+    text-align: center;
+}
 h2{
-    color: darkgreen;
+    color: $color-titulos;
     text-align: center;
 }
 h3{
-    color: darkgreen;
+    color: $color-titulos;
     text-align:left
 }
 
@@ -33,23 +44,19 @@ body{
 }
 
 
-
-    
-a{
-    text-decoration: none;
-    color: white;
-    word-spacing: normal;
+.imaganesproductosindex{
+overflow-x: scroll;
+overflow-y: hidden;
 }
+
+
 
 
 .colortitulo{
     color: lawngreen;
 
 }
-.imgtitulo{
-width: 15% ;
-margin: 1px;
-}
+
 .imginicio{
     width: 10%;
     margin: 1px;
@@ -62,7 +69,6 @@ margin: 1px;
 
 img{
     margin: 50px ;
-    
 }
 .cajatexto{
 
@@ -78,10 +84,11 @@ footer{
 .piecolor{
     background-color: wheat;
 }
-.carruseltamano{
+.caruseltamano{
    width: 1400px;
     height: 1000px;
    margin: 50px;
+   
 }
 
 

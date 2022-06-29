@@ -16,7 +16,7 @@
     background-color: green;
     margin: 5;
     padding: 5px 30px;
-    border-radius: 4px;
+    border-radius: 10px;
   }
   a {
     text-decoration: none;
@@ -27,8 +27,8 @@
     color: lawngreen;
   }
   .imgtitulo {
-    width: 15%;
-    margin: 1px;
+    width: 45%;
+    margin: 50px;
   }
   .imginicio {
     width: 10%;
@@ -37,15 +37,12 @@
   .tituloprincipal {
     text-align: center;
   }
-  img {
-    margin: 50px 10px 40px 50px;
-  }
   .cajatexto {
     background-color: white;
   }
   .grid {
-    display: flex;
-    flex-flow: column nowrap;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
     justify-content: center;
   }
 }
@@ -76,7 +73,7 @@
     color: lawngreen;
   }
   .imgtitulo {
-    width: 15%;
+    width: 30%;
     margin: 1px;
   }
   .imginicio {
@@ -85,9 +82,6 @@
   }
   .tituloprincipal {
     text-align: center;
-  }
-  img {
-    margin: 50px 10px 40px 50px;
   }
   .cajatexto {
     background-color: white;
@@ -139,9 +133,6 @@
   .tituloprincipal {
     text-align: center;
   }
-  img {
-    margin: 50px 10px 40px 50px;
-  }
   .cajatexto {
     background-color: white;
   }
@@ -161,11 +152,53 @@
     text-align: center;
   }
 }
+.imagenesproductos {
+  margin: 0;
+}
+
+.parrafo {
+  background-color: bisque;
+  text-align: center;
+}
+
+.form-control {
+  width: 650px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: stretch;
+  width: 88%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.caja {
+  width: 500px;
+  height: 600px;
+  border: 2px solid green;
+  background-color: white;
+  margin: 15px;
+  text-align: center;
+}
+
+.imagenes {
+  width: 450px;
+  margin: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
 }
 
 h2 {
@@ -183,19 +216,13 @@ body {
   margin: 50px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  word-spacing: normal;
+.imaganesproductosindex {
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .colortitulo {
   color: lawngreen;
-}
-
-.imgtitulo {
-  width: 15%;
-  margin: 1px;
 }
 
 .imginicio {
@@ -223,7 +250,7 @@ footer {
   background-color: wheat;
 }
 
-.carruseltamano {
+.caruseltamano {
   width: 1400px;
   height: 1000px;
   margin: 50px;

@@ -27,17 +27,18 @@
         background-color: green;
         margin: 5;
         padding: 5px 30px;
-        border-radius: 4px;
+        border-radius: 10px;
       
     }
-    
     
         
     a{
         text-decoration: none;
         color: white;
         word-spacing: normal;
+     
     }
+   
     
     
     .colortitulo{
@@ -45,9 +46,9 @@
     
     }
     .imgtitulo{
-    width: 15% ;
-    margin: 1px;
-    }
+        width: 45% ;
+        margin: 50px;
+        }
     .imginicio{
         width: 10%;
         margin: 1px;
@@ -58,9 +59,7 @@
     }
     
     
-    img{
-        margin: 50px 10px 40px 50px
-    }
+    
     .cajatexto{
     
     background-color: white;
@@ -69,10 +68,11 @@
     
     .grid{
        
-        display: flex;
-        flex-flow: column nowrap;
-        
+         display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+       
        justify-content: center;
+  
       
     }
     
@@ -118,9 +118,9 @@
     
     }
     .imgtitulo{
-    width: 15% ;
-    margin: 1px;
-    }
+        width: 30% ;
+        margin: 1px;
+        }
     .imginicio{
         width: 10%;
         margin: 1px;
@@ -131,9 +131,8 @@
     }
     
     
-    img{
-        margin: 50px 10px 40px 50px
-    }
+   
+   
     .cajatexto{
     
     background-color: white;
@@ -149,7 +148,7 @@
     .flexproductos {
         display: flex;
         flex-flow:row;
-    
+
     }
     
 }
@@ -181,7 +180,7 @@ span{
 }
 
 
-    
+        
 a{
     text-decoration: none;
     color: white;
@@ -207,9 +206,7 @@ margin: 1px;
 }
 
 
-img{
-    margin: 50px 10px 40px 50px
-}
+
 .cajatexto{
 
 background-color: white;
