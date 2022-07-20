@@ -4,8 +4,8 @@
 @media (max-width: 480px) {
   header {
     width: 100%;
-    height: 15vh;
-    padding: 25px;
+    height: 15hv;
+    padding: 2px;
     text-align: center;
   }
   nav {
@@ -14,8 +14,8 @@
   }
   span {
     background-color: green;
-    margin: 5;
-    padding: 5px 30px;
+    margin: 10px;
+    padding: 50px 30px;
     border-radius: 10px;
   }
   a {
@@ -45,6 +45,15 @@
     grid-template-columns: 15% 15% 15% 15% 15%;
     justify-content: center;
   }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: stretch;
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -56,13 +65,13 @@
   }
   nav {
     text-align: center;
-    word-spacing: 50px;
+    word-spacing: 100px;
   }
   span {
     background-color: green;
-    margin: 5;
-    padding: 5px 30px;
-    border-radius: 4px;
+    margin: 10;
+    padding: 10px;
+    border-radius: 5px;
   }
   a {
     text-decoration: none;
@@ -95,6 +104,15 @@
     display: flex;
     flex-flow: row;
   }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: stretch;
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 /*desktop*/
 @media (min-width: 1024px) {
@@ -111,7 +129,7 @@
   span {
     background-color: green;
     margin: 5;
-    padding: 5px 30px;
+    padding: 5px;
     border-radius: 4px;
   }
   a {
@@ -151,6 +169,15 @@
     margin: 5px;
     text-align: center;
   }
+  .grid-layout {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: stretch;
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 .imagenesproductos {
   margin: 0;
@@ -165,28 +192,28 @@
   width: 650px;
 }
 
-.grid-layout {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  justify-content: stretch;
-  width: 88%;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .caja {
-  width: 500px;
-  height: 600px;
+  margin-top: 10px;
   border: 2px solid green;
   background-color: white;
-  margin: 15px;
+  margin-left: 10px;
   text-align: center;
+  text-overflow: clip;
 }
 
 .imagenes {
   width: 450px;
   margin: 0;
+}
+
+.tituloPropiedades {
+  text-align: center;
+}
+
+.separador {
+  width: auto;
+  height: 20px;
+  background-color: green;
 }
 
 * {
@@ -251,8 +278,8 @@ footer {
 }
 
 .caruseltamano {
-  width: 1400px;
-  height: 1000px;
+  width: 100%;
+  height: 100%;
   margin: 50px;
 }
 
