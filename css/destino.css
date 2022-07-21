@@ -54,6 +54,13 @@
     margin: 0 auto;
     text-align: center;
   }
+  .imagcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -112,6 +119,13 @@
     width: 88%;
     margin: 0 auto;
     text-align: center;
+  }
+  .imagcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
   }
 }
 /*desktop*/
@@ -178,6 +192,11 @@
     margin: 0 auto;
     text-align: center;
   }
+  .imagcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .imagenesproductos {
   margin: 0;
@@ -190,6 +209,10 @@
 
 .form-control {
   width: 650px;
+}
+
+.h3 {
+  text-align: left;
 }
 
 .caja {
@@ -235,7 +258,7 @@ h2 {
 
 h3 {
   color: darkgreen;
-  text-align: left;
+  text-align: center;
 }
 
 body {

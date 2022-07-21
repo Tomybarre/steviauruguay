@@ -82,6 +82,13 @@
     margin: 0 auto;
     text-align: center;
 }
+.imagcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto ;
+}
 }
 
 /*tablet*/
@@ -167,6 +174,14 @@
     margin: 0 auto;
     text-align: center;
 }
+.imagcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto ;
+}
+
 }
 
 /*desktop*/
@@ -256,5 +271,10 @@ article {
     margin: 0 auto;
     text-align: center;
 }
-
+.imagcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 }
